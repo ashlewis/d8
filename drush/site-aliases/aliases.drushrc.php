@@ -367,3 +367,11 @@ $aliases['remote'] = array(
     '%dump-dir' => '/tmp',
   ),
 );
+
+$aliases['test'] = array(
+  'uri' => 'test.blt.centos7.ash',
+  'root' => '/var/www/test.blt/docroot',
+  'path-aliases' => array(
+    '%dump-dir' => '/tmp',
+  ),
+);
